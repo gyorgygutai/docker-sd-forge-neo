@@ -1,0 +1,15 @@
+{
+  "samples_filename_pattern": "[prompt_words]_[datetime<%Y%m%d_%H%M%S>]_[seed]",
+  "face_restoration_model": "CodeFormer",
+  "code_former_weight": 0.5,
+  "face_restoration_unload": false,
+  "save_images_before_face_restoration": false,
+  "sd_checkpoint_cache": 1,
+  "CLIP_stop_at_last_layers": 2,
+  "enable_pnginfo": true,
+  "samples_save": true,
+  "samples_format": "png",
+  "forge_preset": "qwen",
+  "sd_vae": "qwen_image_vae.safetensors",
+  "forge_additional_modules": ["qwen_2.5_vl_7b_fp8_scaled.safetensors", "qwen_image_vae.safetensors"]
+}
